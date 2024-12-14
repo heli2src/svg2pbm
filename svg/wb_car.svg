@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="20 20 321 321"
+   version="1.1"
+   id="svg144"
+   sodipodi:docname="wb_car.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata150">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs148" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1556"
+     inkscape:window-height="1008"
+     id="namedview146"
+     showgrid="false"
+     inkscape:zoom="2.2897196"
+     inkscape:cx="160.5"
+     inkscape:cy="160.5"
+     inkscape:window-x="2029"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g138" />
+  <g
+     fill="#000"
+     id="g138">
+    <path
+       d="m 58.110761,277.26483 c 0,4.4096 -3.5764,7.986 -7.986,7.986 h -15.30651 c -4.409598,0 -7.985995,-3.5764 -7.985995,-7.986 v -14.641 c 0,-4.4096 3.576397,-7.986 7.985995,-7.986 h 15.30651 c 4.4096,0 7.986,3.5764 7.986,7.986 z"
+       id="path122"
+       style="stroke-width:1.331" />
+    <path
+       d="m 201.85876,277.26483 c 0,4.4096 -3.5764,7.986 -7.986,7.986 h -15.3065 c -4.4096,0 -7.986,-3.5764 -7.986,-7.986 v -14.641 c 0,-4.4096 3.5764,-7.986 7.986,-7.986 h 15.3065 c 4.4096,0 7.986,3.5764 7.986,7.986 z"
+       id="path124"
+       style="stroke-width:1.331" />
+    <path
+       d="M 183.32592,217.3472 H 44.555861 c -7.966038,0 -14.207103,-8.00064 -14.207103,-18.2134 v -0.83986 l 6.324918,-24.6834 c 0.616253,-9.3902 10.122245,-17.25109 17.951195,-17.25109 H 173.25424 c 7.82894,0 17.33494,7.86089 17.9512,17.25109 l 6.32624,24.6834 v 0.83986 c 0.001,10.21409 -6.2384,18.2134 -14.20576,18.2134 z M 45.060311,204.0372 H 182.8228 c 0.45254,-0.50045 1.22984,-1.91131 1.37492,-4.15671 l -6.26901,-24.46777 v -0.83986 c 0,-2.09234 -3.31818,-4.71973 -4.78494,-4.90873 l -118.518899,0.003 c -1.35496,0.18501 -4.67314,2.8124 -4.67314,4.9034 v 0.83986 l -6.26901,24.46777 c 0.14641,2.24806 0.92505,3.65759 1.37759,4.15805 z"
+       id="path126"
+       style="stroke-width:1.331" />
+    <path
+       d="m 207.62598,254.23054 c 0,3.89983 -3.69886,7.06229 -8.25885,7.06229 H 28.658388 c -4.561337,0 -8.260186,-3.16246 -8.260186,-7.06229 v -36.88068 c 0,-3.89983 3.698849,-7.06228 8.260186,-7.06228 H 199.36713 c 4.55999,0 8.25885,3.16245 8.25885,7.06228 z M 64.433011,225.67261 c 0,-3.45661 -3.5764,-6.25837 -7.986,-6.25837 H 33.487256 c -4.409603,0 -7.986,2.80176 -7.986,6.25837 v 6.5179 c 0,3.45528 3.576397,6.25703 7.986,6.25703 h 22.959755 c 4.4096,0 7.986,-2.80175 7.986,-6.25703 z m 137.758499,0 c 0,-3.45661 -3.5764,-6.25837 -7.986,-6.25837 h -22.95975 c -4.4096,0 -7.986,2.80176 -7.986,6.25837 v 6.5179 c 0,3.45528 3.5764,6.25703 7.986,6.25703 h 22.95975 c 4.4096,0 7.986,-2.80175 7.986,-6.25703 z m -53.57276,5.53163 c 0,-6.72155 -3.5764,-12.17066 -7.98599,-12.17066 H 86.727261 c -4.4096,0 -7.986,5.44911 -7.986,12.17066 v 7.60401 c 0,6.72155 3.5764,12.17066 7.986,12.17066 h 53.905499 c 4.4096,0 7.986,-5.44911 7.986,-12.17066 z"
+       id="path128"
+       style="stroke-width:1.331" />
+    <path
+       d="m 69.757001,222.69383 h 87.846009 v 13.31 H 69.757001 Z"
+       id="path130"
+       style="stroke-width:1.331" />
+    <path
+       d="m 71.088011,239.99683 h 87.845999 v 13.31 H 71.088011 Z"
+       id="path132"
+       style="stroke-width:1.331" />
+  </g>
+</svg>
