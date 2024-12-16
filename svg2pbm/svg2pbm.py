@@ -55,7 +55,7 @@ class SVG2pbm(wx.Frame):
     def bin2ascii(self, bytebuffer, width):
         """convert a Binary Portable Bitmap to ASCII Portable Bitmap"""
         buffer = ""
-        refiller = 8 - (int(width) % 8)
+        refiller = 8 - ((int(width) % 8) if width % 8 != 0 else 8)
         for index in range(0, len(bytebuffer)):
             buffer += f'{bytebuffer[index]:08b}'
         asciibuffer = ""
@@ -68,7 +68,7 @@ class SVG2pbm(wx.Frame):
         refiller = 8 - (width % 8)
         rbuffer = ""
         for col in range(0, len(asciibuffer), width):
-            rbuffer += asciibuffer[col: col+width] + f'{0:0{refiller}b}'
+            rbuffer += asciibuffer[col: col+width] + (f'{0:0{refiller}b}' if width % 8 != 0 else '')
 
         cnt = 0
         binbuffer = bytearray()
@@ -190,14 +190,14 @@ if __name__ == "__main__":
     app = wx.App()
     frame = SVG2pbm(None)
     path = os.getcwd()
-    frame.inpath = path + os.sep + "svg"
-    frame.outpath = path + os.sep + "pbm"
+    frame.inpath = path + "/../svg"
+    frame.outpath = path + "/../pbm"
 
-    mode, image, width, heigth = frame.loadpbm(f'{path}/pbm/wb_car_.pbm')
+    #mode, image, width, heigth = frame.loadpbm(f'{path}/pbm/wb_car_.pbm')
     #binbuffer = frame.ascii2bin(image, width)
     #asciibuffer = frame.bin2ascii(image, width)
     #frame.write_pbm('wb_car_50x50t', asciibuffer, width, heigth, 'ascii')
 
     # frame.convert("wb_car.svg", 30, 30, "ascii"
-    frame.convert("wb_car.svg", 100, 100, "ascii")
-    #frame.convert_dir(50, 50)
+    #frame.convert("wb_car.svg", 100, 100, "ascii")
+    frame.convert_dir(80, 80)
